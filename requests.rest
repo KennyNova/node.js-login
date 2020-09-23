@@ -1,0 +1,12 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3lsZSIsImlhdCI6MTYwMDgxNzg1NX0.2B4mSv4Rfyd8JQV8pDhfd5UPFH1w_gnz4ZXDSNz57eQ
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "kyle"
+}
